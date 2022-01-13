@@ -7,9 +7,78 @@
     <title>Interest Calculator</title>
     <link rel="icon" href="../assets/logo.png" />
     <link rel="stylesheet" href="../styles/interest.css" />
+    <script type="text/javascript">
+      function simpleinterest() {
+        const principle = document.getElementById("principleinput").value;
+        const rate = document.getElementById("rateofinterestinput").value;
+        const time = document.getElementById("timeinput").value;
+        const simpleinterest = (principle * rate * time) / 100;
+        const interestGained = simpleinterest;
+        const totalAmount = principle * 1 + interestGained * 1;
+        alert(
+          `Interest gained = ${interestGained}\nTotal amount recieved = ${totalAmount}`
+        );
+      }
+
+      function compoundinterest() {
+        alert("In Development ⚒️");
+      }
+    </script>
   </head>
   <body>
-    <h1 class="title">In Development ⚒️</h1>
+    <h1 class="title">Interest Calculator</h1>
+    <h3 class="simpleinterestinfo">Simple Interest</h3>
+    <div class="simpleinterestinput">
+      <input
+        id="principleinput"
+        class="principleinput"
+        placeholder="Enter Principle"
+        type="number"
+      />
+      <input
+        id="rateofinterestinput"
+        class="rateofinterestinput"
+        placeholder="Enter Rate of Interest"
+        type="number"
+      />
+      <input
+        id="timeinput"
+        class="timeinput"
+        placeholder="Enter Time (in yrs)"
+        type="number"
+      />
+    </div>
+    <div class="simpleinterestbutton">
+      <button class="simpleinterestbutton" onclick="simpleinterest()">
+        Calculate
+      </button>
+    </div>
+    <h3 class="compoundinterestinfo">Compound Interest</h3>
+    <div class="compoundinterestinput">
+      <input
+        id="ciprincipleinput"
+        class="ciprincipleinput"
+        placeholder="Enter Principle"
+        type="number"
+      />
+      <input
+        id="cirateofinterestinput"
+        class="cirateofinterestinput"
+        placeholder="Enter Rate of Interest"
+        type="number"
+      />
+      <input
+        id="citimeinput"
+        class="citimeinput"
+        placeholder="Enter Time (in yrs)"
+        type="number"
+      />
+    </div>
+    <div class="compoundinterestbutton">
+      <button class="compoundinterestbutton" onclick="compoundinterest()">
+        Calculate
+      </button>
+    </div>
     <div class="backbutton">
       <a href="../index.html"
         ><button class="backbutton">Back to Home Page</button></a

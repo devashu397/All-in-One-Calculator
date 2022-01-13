@@ -10,6 +10,102 @@ h1.title {
   text-align: center;
 }
 
+h3.simpleinterestinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.simpleinterestinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.principleinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.rateofinterestinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.timeinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.simpleinterestbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.simpleinterestbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+h3.compoundinterestinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.compoundinterestinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.ciprincipleinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.cirateofinterestinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.citimeinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.compoundinterestbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.compoundinterestbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
 div.backbutton {
   padding-top: 125px;
   text-align: center;
