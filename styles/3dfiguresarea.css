@@ -1,0 +1,168 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #064663;
+  background-color: #4bdcc5;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3.cuboidinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.cuboidinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.lengthinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.breadthinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.heightinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.cuboidunitinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.cuboidbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.cuboidbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+h3.cubeinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.cubeinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.edgeinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.cubeunitinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.cubebutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.cubebutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+h3.cylinderinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.cylinderinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.radiusinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.cyheightinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.cylinderunitinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.cylinderbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.cylinderbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+div.backbutton {
+  padding-top: 125px;
+  text-align: center;
+}
+
+button.backbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}

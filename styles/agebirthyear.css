@@ -1,0 +1,88 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #064663;
+  background-color: #4bdcc5;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3.ageinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.ageinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.ageinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.agebutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.agebutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+h3.birthyearinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.birthyearinput {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input.birthyearinput {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.birthyearbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.birthyearbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}
+
+div.backbutton {
+  padding-top: 125px;
+  text-align: center;
+}
+
+button.backbutton {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 25px;
+  width: 250px;
+}

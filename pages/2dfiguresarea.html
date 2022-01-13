@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Figures Area Calculator</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/2dfiguresarea.css" />
+    <script type="text/javascript">
+      function rectangle() {
+        const length = document.getElementById("lengthinput").value;
+        const breadth = document.getElementById("breadthinput").value;
+        const unit = document.getElementById("rectangleunitinput").value;
+        const area = length * breadth;
+        alert(`Area of Rectangle = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function square() {
+        const side = document.getElementById("sideinput").value;
+        const unit = document.getElementById("squareunitinput").value;
+        const area = side * side;
+        alert(`Area of Square = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function triangle() {
+        const base = document.getElementById("baseinput").value;
+        const height = document.getElementById("heightinput").value;
+        const unit = document.getElementById("triangleunitinput").value;
+        const area = (1 / 2) * base * height;
+        alert(`Area of Triangle = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function circle() {
+        const radius = document.getElementById("radiusinput").value;
+        const unit = document.getElementById("circleunitinput").value;
+        const area = (22 / 7) * radius * radius;
+        alert(`Area of Circle = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function parallelogram() {
+        const base = document.getElementById("pbaseinput").value;
+        const height = document.getElementById("pheightinput").value;
+        const unit = document.getElementById("parallelogramunitinput").value;
+        const area = base * height;
+        alert(`Area of Parallelogram = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function rhombus() {
+        const diagonal1 = document.getElementById("diagonal1input").value;
+        const diagonal2 = document.getElementById("diagonal2input").value;
+        const unit = document.getElementById("rhombusunitinput").value;
+        const area = (1 / 2) * diagonal1 * diagonal2;
+        alert(`Area of Rhombus = ${area} ${unit.toLowerCase()}²`);
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">2D Figures Area Calculator</h1>
+    <h3 class="rectangleinfo">Rectangle Area</h3>
+    <div class="rectangleinput">
+      <input
+        id="lengthinput"
+        class="lengthinput"
+        placeholder="Enter Length"
+        type="number"
+      />
+      <input
+        id="breadthinput"
+        class="breadthinput"
+        placeholder="Enter Breadth"
+        type="number"
+      />
+      <input
+        id="rectangleunitinput"
+        class="rectangleunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="rectanglebutton">
+      <button class="rectanglebutton" onclick="rectangle()">Calculate</button>
+    </div>
+    <h3 class="squareinfo">Square Area</h3>
+    <div class="squareinput">
+      <input
+        id="sideinput"
+        class="sideinput"
+        placeholder="Enter Side of the Square"
+        type="number"
+      />
+      <input
+        id="squareunitinput"
+        class="squareunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="squarebutton">
+      <button class="squarebutton" onclick="square()">Calculate</button>
+    </div>
+    <h3 class="triangleinfo">Triangle Area</h3>
+    <div class="triangleinput">
+      <input
+        id="baseinput"
+        class="baseinput"
+        placeholder="Enter Base"
+        type="number"
+      />
+      <input
+        id="heightinput"
+        class="heightinput"
+        placeholder="Enter Height"
+        type="number"
+      />
+      <input
+        id="triangleunitinput"
+        class="triangleunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="trianglebutton">
+      <button class="trianglebutton" onclick="triangle()">Calculate</button>
+    </div>
+    <h3 class="circleinfo">Circle Area</h3>
+    <div class="circleinput">
+      <input
+        id="radiusinput"
+        class="radiusinput"
+        placeholder="Enter Radius"
+        type="number"
+      />
+      <input
+        id="circleunitinput"
+        class="circleunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="circlebutton">
+      <button class="circlebutton" onclick="circle()">Calculate</button>
+    </div>
+    <h3 class="parallelograminfo">Parallelogram Area</h3>
+    <div class="parallelograminput">
+      <input
+        id="pbaseinput"
+        class="pbaseinput"
+        placeholder="Enter Base"
+        type="number"
+      />
+      <input
+        id="pheightinput"
+        class="pheightinput"
+        placeholder="Enter Height"
+        type="number"
+      />
+      <input
+        id="parallelogramunitinput"
+        class="parallelogramunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="parallelogrambutton">
+      <button class="parallelogrambutton" onclick="parallelogram()">
+        Calculate
+      </button>
+    </div>
+    <h3 class="rhombusinfo">Rhombus Area</h3>
+    <div class="rhombusinput">
+      <input
+        id="diagonal1input"
+        class="diagonal1input"
+        placeholder="Enter Diagonal 1"
+        type="number"
+      />
+      <input
+        id="diagonal2input"
+        class="diagonal2input"
+        placeholder="Enter Diagonal 2"
+        type="number"
+      />
+      <input
+        id="rhombusunitinput"
+        class="rhombusunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="rhombusbutton">
+      <button class="rhombusbutton" onclick="rhombus()">Calculate</button>
+    </div>
+    <div class="backbutton">
+      <a href="./index.html"
+        ><button class="backbutton">Back to Home Page</button></a
+      >
+    </div>
+  </body>
+</html>

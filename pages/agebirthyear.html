@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age & Birth Year Calculator</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/agebirthyear.css" />
+    <script type="text/javascript">
+      function age() {
+        const birthYear = document.getElementById("ageinput").value;
+        const age = 2021 - birthYear;
+        alert(`Your age is: ${age} yrs`);
+      }
+
+      function birthYear() {
+        const age = document.getElementById("birthyearinput").value;
+        const birthYear = 2021 - age;
+        alert(`Your were born in the year: ${birthYear}`);
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Age & Birth Year Calculator</h1>
+    <h3 class="ageinfo">Age Calculator</h3>
+    <div class="ageinput">
+      <input
+        id="ageinput"
+        class="ageinput"
+        placeholder="Enter your birth year"
+        type="number"
+      />
+    </div>
+    <div class="agebutton">
+      <button class="agebutton" onclick="age()">Calculate</button>
+    </div>
+    <h3 class="birthyearinfo">Birth Year Calculator</h3>
+    <div class="birthyearinput">
+      <input
+        id="birthyearinput"
+        class="birthyearinput"
+        placeholder="Enter your age"
+        type="number"
+      />
+    </div>
+    <div class="birthyearbutton">
+      <button class="birthyearbutton" onclick="birthYear()">Calculate</button>
+    </div>
+    <div class="backbutton">
+      <a href="./index.html"
+        ><button class="backbutton">Back to Home Page</button></a
+      >
+    </div>
+  </body>
+</html>

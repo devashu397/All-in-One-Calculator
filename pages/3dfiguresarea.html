@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Figures Area Calculator</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/3dfiguresarea.css" />
+    <script type="text/javascript">
+      function cuboid() {
+        const length = document.getElementById("lengthinput").value;
+        const breadth = document.getElementById("breadthinput").value;
+        const height = document.getElementById("heightinput").value;
+        const unit = document.getElementById("cuboidunitinput").value;
+        const area =
+          2 * length * breadth + 2 * breadth * height + 2 * length * height;
+        alert(`Surface Area of Cuboid = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function cube() {
+        const edge = document.getElementById("edgeinput").value;
+        const unit = document.getElementById("cubeunitinput").value;
+        const area = 6 * edge * edge;
+        alert(`Surface Area of Cube = ${area} ${unit.toLowerCase()}²`);
+      }
+
+      function cylinder() {
+        const radius = document.getElementById("radiusinput").value;
+        const height = document.getElementById("cyheightinput").value;
+        const unit = document.getElementById("cylinderunitinput").value;
+        const area =
+          2 * (22 / 7) * radius * height + 2 * (22 / 7) * radius * radius;
+        alert(`Surface Area of Cylinder = ${area} ${unit.toLowerCase()}²`);
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">3D Figures Area Calculator</h1>
+    <h3 class="cuboidinfo">Cuboid Surface Area</h3>
+    <div class="cuboidinput">
+      <input
+        id="lengthinput"
+        class="lengthinput"
+        placeholder="Enter Length"
+        type="number"
+      />
+      <input
+        id="breadthinput"
+        class="breadthinput"
+        placeholder="Enter Breadth"
+        type="number"
+      />
+      <input
+        id="heightinput"
+        class="heightinput"
+        placeholder="Enter Height"
+        type="number"
+      />
+      <input
+        id="cuboidunitinput"
+        class="cuboidunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="cuboidbutton">
+      <button class="cuboidbutton" onclick="cuboid()">Calculate</button>
+    </div>
+    <h3 class="cubeinfo">Cube Surface Area</h3>
+    <div class="cubeinput">
+      <input
+        id="edgeinput"
+        class="edgeinput"
+        placeholder="Enter Edge of the Cube"
+        type="number"
+      />
+      <input
+        id="cubeunitinput"
+        class="cubeunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="cubebutton">
+      <button class="cubebutton" onclick="cube()">Calculate</button>
+    </div>
+    <h3 class="cylinderinfo">Cylinder Surface Area</h3>
+    <div class="cylinderinput">
+      <input
+        id="radiusinput"
+        class="radiusinput"
+        placeholder="Enter Radius"
+        type="number"
+      />
+      <input
+        id="cyheightinput"
+        class="cyheightinput"
+        placeholder="Enter Height"
+        type="number"
+      />
+      <input
+        id="cylinderunitinput"
+        class="cylinderunitinput"
+        placeholder="Enter Unit eg: cm"
+        type="text"
+      />
+    </div>
+    <div class="cylinderbutton">
+      <button class="cylinderbutton" onclick="cylinder()">Calculate</button>
+    </div>
+    <div class="backbutton">
+      <a href="./index.html"
+        ><button class="backbutton">Back to Home Page</button></a
+      >
+    </div>
+  </body>
+</html>
