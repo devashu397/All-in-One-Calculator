@@ -46,7 +46,7 @@ input.timeinput {
 }
 
 div.simpleinterestbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -54,8 +54,14 @@ button.simpleinterestbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv1 {
+  padding-top: 10px;
+  text-align: center;
 }
 
 h3.compoundinterestinfo {
@@ -94,7 +100,7 @@ input.citimeinput {
 }
 
 div.compoundinterestbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -102,12 +108,18 @@ button.compoundinterestbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv2 {
+  padding-top: 10px;
+  text-align: center;
 }
 
 div.backbutton {
-  padding-top: 125px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -115,6 +127,7 @@ button.backbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
 }

@@ -30,7 +30,7 @@ input.ageinput {
 }
 
 div.agebutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -38,8 +38,16 @@ button.agebutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 10px;
+  text-align: center;
 }
 
 h3.birthyearinfo {
@@ -62,7 +70,7 @@ input.birthyearinput {
 }
 
 div.birthyearbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -70,12 +78,20 @@ button.birthyearbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 10px;
+  text-align: center;
 }
 
 div.backbutton {
-  padding-top: 125px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -83,6 +99,7 @@ button.backbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
 }

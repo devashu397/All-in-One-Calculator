@@ -30,7 +30,7 @@ input.ctofinput {
 }
 
 div.ctofbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -38,8 +38,16 @@ button.ctofbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv1 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.ctokinfo {
@@ -62,7 +70,7 @@ input.ctokinput {
 }
 
 div.ctokbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -70,8 +78,16 @@ button.ctokbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.ftocinfo {
@@ -94,7 +110,7 @@ input.ftocinput {
 }
 
 div.ftocbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -102,8 +118,16 @@ button.ftocbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv3 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.ftokinfo {
@@ -126,7 +150,7 @@ input.ftokinput {
 }
 
 div.ftokbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -134,8 +158,16 @@ button.ftokbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv4 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.ktocinfo {
@@ -158,7 +190,7 @@ input.ktocinput {
 }
 
 div.ktocbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -166,8 +198,16 @@ button.ktocbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv5 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.ktofinfo {
@@ -190,7 +230,7 @@ input.ktofinput {
 }
 
 div.ktofbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -198,12 +238,20 @@ button.ktofbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv6 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 div.backbutton {
-  padding-top: 125px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -211,6 +259,7 @@ button.backbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
 }

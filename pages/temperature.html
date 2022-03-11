@@ -10,38 +10,44 @@
     <script type="text/javascript">
       function celsiusToFahrenheit() {
         const celsius = document.getElementById('ctofinput').value;
+        const resultdiv1 = document.getElementById('resultdiv1')
         const conversion = (celsius * 9/5) + 32;
-        alert(`${celsius}° Celsius = ${conversion}° Fahrenheit`)
+        resultdiv1.innerHTML = `${celsius}° Celsius = ${conversion}° Fahrenheit`
       }
 
       function celsiusToKelvin(){
         const celsius = document.getElementById('ctokinput').value;
         const conversion = celsius * 1 + 273.15;
-        alert(`${celsius}° Celsius = ${conversion}° Kelvin`)
+        const resultdiv2 = document.getElementById('resultdiv2')
+        resultdiv2.innerHTML = `${celsius}° Celsius = ${conversion}° Kelvin`
       }
 
       function fahrenheitToCelsius(){
         const fahrenheit = document.getElementById('ftocinput').value;
         const conversion = (fahrenheit * 1 - 32) * 5/9 * 1;
-        alert(`${fahrenheit}° Fahrenheit = ${conversion}° Celsius`)
+        const resultdiv3 = document.getElementById('resultdiv3')
+        resultdiv3.innerHTML = `${fahrenheit}° Fahrenheit = ${conversion}° Celsius`
       }
 
       function fahrenheitToKelvin(){
         const fahrenheit = document.getElementById('ftokinput').value;
         const conversion = (fahrenheit * 1 - 32) * 5/9 * 1 + 273.15;
-        alert(`${fahrenheit}° Fahrenheit = ${conversion}° Kelvin `)
+        const resultdiv4 = document.getElementById('resultdiv4')
+        resultdiv4.innerHTML = `${fahrenheit}° Fahrenheit = ${conversion}° Kelvin`
       }
 
       function kelvinToCelsius(){
         const kelvin = document.getElementById('ktocinput').value;
         const conversion = kelvin * 1 - 273.15;
-        alert(`${kelvin}° Kelvin = ${conversion}° Celcius`)
+        const resultdiv5 = document.getElementById('resultdiv5');
+        resultdiv5.innerHTML = `${kelvin}° Kelvin = ${conversion}° Celcius`;
       }
 
       function kelvinToFahrenheit(){
         const kelvin = document.getElementById('ktofinput').value;
         const conversion = (kelvin * 1 - 273.15) * 9/5 * 1 + 32;
-        alert(`${kelvin}° Kelvin = ${conversion}° Fahrenheit`)
+        const resultdiv6 = document.getElementById('resultdiv6');
+        resultdiv6.innerHTML = `${kelvin}° Kelvin = ${conversion}° Fahrenheit`;
       }
     </script>
   </head>
@@ -55,6 +61,9 @@
         placeholder="Enter in Degree Celsius"
         type="number"
       />
+      <div class="resultdiv1">
+        <h1 class="resultdiv1" id="resultdiv1"></h1>
+      </div>
       <div class="ctofbutton">
         <button class="ctofbutton" onclick="celsiusToFahrenheit()">Convert</button>
       </div>
@@ -66,6 +75,9 @@
           placeholder="Enter in Degree Celsius"
           type="number"
         />
+        <div class="resultdiv2">
+          <h1 class="resultdiv2" id="resultdiv2"></h1>
+        </div>
         <div class="ctokbutton">
           <button class="ctokbutton" onclick="celsiusToKelvin()">Convert</button>
         </div>
@@ -77,6 +89,9 @@
             placeholder="Enter in Degree Fahrenheit"
             type="number"
           />
+          <div class="resultdiv3">
+            <h1 class="resultdiv3" id="resultdiv3"></h1>
+          </div>
           <div class="ftocbutton">
             <button class="ftocbutton" onclick="fahrenheitToCelsius()">Convert</button>
           </div>
@@ -88,6 +103,9 @@
               placeholder="Enter in Degree Fahrenheit"
               type="number"
             />
+            <div class="resultdiv4">
+              <h1 class="resultdiv4" id="resultdiv4"></h1>
+            </div>
             <div class="ftokbutton">
               <button class="ftokbutton" onclick="fahrenheitToKelvin()">Convert</button>
             </div>
@@ -99,6 +117,9 @@
                 placeholder="Enter in Degree Kelvin"
                 type="number"
               />
+              <div class="resultdiv5">
+                <h1 class="resultdiv5" id="resultdiv5"></h1>
+              </div>
               <div class="ktocbutton">
                 <button class="ktocbutton" onclick="kelvinToCelsius()">Convert</button>
               </div>
@@ -110,6 +131,9 @@
                   placeholder="Enter in Degree Kelvin"
                   type="number"
                 />
+                <div class="resultdiv6">
+                  <h1 class="resultdiv6" id="resultdiv6"></h1>
+                </div>
                 <div class="ktofbutton">
                   <button class="ktofbutton" onclick="kelvinToFahrenheit()">Convert</button>
                 </div>

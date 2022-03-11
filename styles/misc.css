@@ -10,26 +10,18 @@ h1.title {
   text-align: center;
 }
 
-h3.bodymassindexinfo {
+h3.roundnumberinfo {
   padding-top: 25px;
   text-align: center;
 }
 
-div.bodymassindexinput {
+div.roundnumberinput {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-input.weightinput {
-  text-align: center;
-  height: 25px;
-  width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-input.heightinput {
+input.roundnumberinput {
   text-align: center;
   height: 25px;
   width: 250px;
@@ -37,12 +29,12 @@ input.heightinput {
     "Lucida Sans", Arial, sans-serif;
 }
 
-div.bodymassindexbutton {
+div.roundnumberbutton {
   padding-top: 10px;
   text-align: center;
 }
 
-button.bodymassindexbutton {
+button.roundnumberbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;

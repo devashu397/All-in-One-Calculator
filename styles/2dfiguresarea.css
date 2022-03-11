@@ -46,7 +46,7 @@ input.rectangleunitinput {
 }
 
 div.rectanglebutton {
-  padding-top: 25px;
+  padding-top: 19px;
   text-align: center;
 }
 
@@ -54,8 +54,16 @@ button.rectanglebutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv1 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.squareinfo {
@@ -86,7 +94,7 @@ input.squareunitinput {
 }
 
 div.squarebutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -94,8 +102,16 @@ button.squarebutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.triangleinfo {
@@ -134,7 +150,7 @@ input.triangleunitinput {
 }
 
 div.trianglebutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -142,8 +158,16 @@ button.trianglebutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv3 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.circleinfo {
@@ -174,7 +198,7 @@ input.circleunitinput {
 }
 
 div.circlebutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -182,8 +206,16 @@ button.circlebutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv4 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.parallelograminfo {
@@ -222,7 +254,7 @@ input.parallelogramunitinput {
 }
 
 div.parallelogrambutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -230,8 +262,16 @@ button.parallelogrambutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv5 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h3.rhombusinfo {
@@ -270,7 +310,7 @@ input.rhombusunitinput {
 }
 
 div.rhombusbutton {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -278,12 +318,20 @@ button.rhombusbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
+}
+
+div.resultdiv6 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 div.backbutton {
-  padding-top: 125px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -291,6 +339,7 @@ button.backbutton {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  height: 25px;
+  height: 40px;
   width: 250px;
+  border-radius: 50px;
 }

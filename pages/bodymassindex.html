@@ -14,26 +14,27 @@
         const result = document.getElementById("result");
         const weight = Number(weightvalue);
         const height = Number(heightvalue);
+        const resultdiv = document.getElementById("resultdiv");
         const bmi = weight / (height * height);
 
         if (bmi < 18.5) {
-          result.innerHTML = `Your BMI is ${bmi.toFixed(
+          resultdiv.innerHTML = `Your BMI is ${bmi.toFixed(
             3
           )}, this means you are underweight`;
         } else if (bmi >= 18.5 && bmi <= 24.9) {
-          result.innerHTML = `Your BMI is ${bmi.toFixed(
+          resultdiv.innerHTML = `Your BMI is ${bmi.toFixed(
             3
           )}, this means you are healthy`;
         } else if (bmi >= 25.0 && bmi <= 29.9) {
-          result.innerHTML = `Your BMI is ${bmi.toFixed(
+          resultdiv.innerHTML = `Your BMI is ${bmi.toFixed(
             3
           )}, this means you are overweight`;
         } else if (bmi >= 30.0) {
-          result.innerHTML = `Your BMI is ${bmi.toFixed(
+          resultdiv.innerHTML = `Your BMI is ${bmi.toFixed(
             3
           )}, this means you are obese`;
         } else {
-          result.innerHTML = "Please enter the above values";
+          resultdiv.innerHTML = "Please enter the above values";
         }
       }
     </script>
@@ -55,13 +56,13 @@
         type="number"
       />
     </div>
+    <div class="resultdiv">
+      <h1 class="resultdiv" id="resultdiv"></h1>
+    </div>
     <div class="bodymassindexbutton">
       <button class="bodymassindexbutton" onclick="bodymassindex()">
         Calculate
       </button>
-    </div>
-    <div class="resultdiv">
-      <h1 class="result" id="result"></h1>
     </div>
     <div class="backbutton">
       <a href="../index.html"

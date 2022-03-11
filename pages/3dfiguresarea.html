@@ -13,25 +13,28 @@
         const breadth = document.getElementById("breadthinput").value;
         const height = document.getElementById("heightinput").value;
         const unit = document.getElementById("cuboidunitinput").value;
+        const resultdiv1 = document.getElementById("resultdiv1");
         const area =
           2 * length * breadth + 2 * breadth * height + 2 * length * height;
-        alert(`Surface Area of Cuboid = ${area} ${unit.toLowerCase()}²`);
+        resultdiv1.innerHTML = `Surface Area of Cuboid = ${area} ${unit.toLowerCase()}²`;
       }
 
       function cube() {
         const edge = document.getElementById("edgeinput").value;
         const unit = document.getElementById("cubeunitinput").value;
+        const resultdiv2 = document.getElementById("resultdiv2");
         const area = 6 * edge * edge;
-        alert(`Surface Area of Cube = ${area} ${unit.toLowerCase()}²`);
+        resultdiv2.innerHTML = `Surface Area of Cube = ${area} ${unit.toLowerCase()}²`;
       }
 
       function cylinder() {
         const radius = document.getElementById("radiusinput").value;
         const height = document.getElementById("cyheightinput").value;
         const unit = document.getElementById("cylinderunitinput").value;
+        const resultdiv3 = document.getElementById("resultdiv3");
         const area =
           2 * (22 / 7) * radius * height + 2 * (22 / 7) * radius * radius;
-        alert(`Surface Area of Cylinder = ${area} ${unit.toLowerCase()}²`);
+        resultdiv3.innerHTML = `Surface Area of Cylinder = ${area} ${unit.toLowerCase()}²`;
       }
     </script>
   </head>
@@ -64,6 +67,9 @@
         type="text"
       />
     </div>
+    <div class="resultdiv1">
+      <h1 class="resultdiv1" id="resultdiv1"></h1>
+    </div>
     <div class="cuboidbutton">
       <button class="cuboidbutton" onclick="cuboid()">Calculate</button>
     </div>
@@ -81,6 +87,9 @@
         placeholder="Enter Unit eg: cm"
         type="text"
       />
+    </div>
+    <div class="resultdiv2">
+      <h1 class="resultdiv2" id="resultdiv2"></h1>
     </div>
     <div class="cubebutton">
       <button class="cubebutton" onclick="cube()">Calculate</button>
@@ -105,6 +114,9 @@
         placeholder="Enter Unit eg: cm"
         type="text"
       />
+    </div>
+    <div class="resultdiv3">
+      <h1 class="resultdiv3" id="resultdiv3"></h1>
     </div>
     <div class="cylinderbutton">
       <button class="cylinderbutton" onclick="cylinder()">Calculate</button>

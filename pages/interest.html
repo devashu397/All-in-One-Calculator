@@ -15,13 +15,13 @@
         const simpleinterest = (principle * rate * time) / 100;
         const interestGained = simpleinterest;
         const totalAmount = principle * 1 + interestGained * 1;
-        alert(
-          `Interest gained = ${interestGained}\nTotal amount recieved = ${totalAmount}`
-        );
+        const resultdiv1 = document.getElementById("resultdiv1");
+        resultdiv1.innerHTML = `Interest gained = ${interestGained.toLocaleString()} and Total amount recieved = ${totalAmount.toLocaleString()}`;
       }
 
       function compoundinterest() {
-        alert("In Development ⚒️");
+        const resultdiv2 = document.getElementById("resultdiv2");
+        resultdiv2.innerHTML = "In Development ⚒️";
       }
     </script>
   </head>
@@ -48,6 +48,9 @@
         type="number"
       />
     </div>
+    <div class="resultdiv1">
+      <h1 class="resultdiv1" id="resultdiv1"></h1>
+    </div>
     <div class="simpleinterestbutton">
       <button class="simpleinterestbutton" onclick="simpleinterest()">
         Calculate
@@ -73,6 +76,9 @@
         placeholder="Enter Time (in yrs)"
         type="number"
       />
+    </div>
+    <div class="resultdiv2">
+      <h1 class="resultdiv2" id="resultdiv2"></h1>
     </div>
     <div class="compoundinterestbutton">
       <button class="compoundinterestbutton" onclick="compoundinterest()">

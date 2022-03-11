@@ -11,13 +11,15 @@
       function age() {
         const birthYear = document.getElementById("ageinput").value;
         const age = 2021 - birthYear;
-        alert(`Your age is: ${age} yrs`);
+        const resultdiv1 = document.getElementById("resultdiv1");
+        resultdiv1.innerHTML = `Your age is: ${age} yrs`;
       }
 
       function birthYear() {
         const age = document.getElementById("birthyearinput").value;
         const birthYear = 2021 - age;
-        alert(`Your were born in the year: ${birthYear}`);
+        const resultdiv2 = document.getElementById("resultdiv2");
+        resultdiv2.innerHTML = `Your were born in the year: ${birthYear}`;
       }
     </script>
   </head>
@@ -32,6 +34,9 @@
         type="number"
       />
     </div>
+    <div class="resultdiv1">
+      <h1 class="resultdiv1" id="resultdiv1"></h1>
+    </div>
     <div class="agebutton">
       <button class="agebutton" onclick="age()">Calculate</button>
     </div>
@@ -43,6 +48,9 @@
         placeholder="Enter your age"
         type="number"
       />
+    </div>
+    <div class="resultdiv2">
+      <h1 class="resultdiv2" id="resultdiv2"></h1>
     </div>
     <div class="birthyearbutton">
       <button class="birthyearbutton" onclick="birthYear()">Calculate</button>
