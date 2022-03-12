@@ -1,8 +1,7 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #064663;
-  background-color: #4bdcc5;
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
 }
 
 h1.title {
@@ -17,16 +16,14 @@ h3.roundnumberinfo {
 
 div.roundnumberinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.roundnumberinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.roundnumberbutton {
@@ -36,11 +33,10 @@ div.roundnumberbutton {
 
 button.roundnumberbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv {
@@ -49,15 +45,14 @@ div.resultdiv {
 }
 
 div.backbutton {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
 }
 
 button.backbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }

@@ -1,8 +1,7 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #064663;
-  background-color: #4bdcc5;
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
 }
 
 h1.title {
@@ -17,16 +16,14 @@ h3.ctofinfo {
 
 div.ctofinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ctofinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ctofbutton {
@@ -36,18 +33,16 @@ div.ctofbutton {
 
 button.ctofbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv1 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.ctokinfo {
@@ -57,16 +52,14 @@ h3.ctokinfo {
 
 div.ctokinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ctokinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ctokbutton {
@@ -76,18 +69,16 @@ div.ctokbutton {
 
 button.ctokbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv2 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.ftocinfo {
@@ -97,16 +88,14 @@ h3.ftocinfo {
 
 div.ftocinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ftocinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ftocbutton {
@@ -116,18 +105,16 @@ div.ftocbutton {
 
 button.ftocbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv3 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.ftokinfo {
@@ -137,16 +124,14 @@ h3.ftokinfo {
 
 div.ftokinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ftokinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ftokbutton {
@@ -156,18 +141,16 @@ div.ftokbutton {
 
 button.ftokbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv4 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.ktocinfo {
@@ -177,16 +160,14 @@ h3.ktocinfo {
 
 div.ktocinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ktocinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ktocbutton {
@@ -196,18 +177,16 @@ div.ktocbutton {
 
 button.ktocbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv5 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.ktofinfo {
@@ -217,16 +196,14 @@ h3.ktofinfo {
 
 div.ktofinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ktofinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.ktofbutton {
@@ -236,30 +213,27 @@ div.ktofbutton {
 
 button.ktofbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv6 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.backbutton {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
 }
 
 button.backbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }

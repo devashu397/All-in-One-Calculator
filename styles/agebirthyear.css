@@ -1,8 +1,7 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #064663;
-  background-color: #4bdcc5;
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
 }
 
 h1.title {
@@ -17,16 +16,14 @@ h3.ageinfo {
 
 div.ageinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.ageinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.agebutton {
@@ -36,16 +33,14 @@ div.agebutton {
 
 button.agebutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   padding-top: 10px;
   text-align: center;
 }
@@ -57,16 +52,14 @@ h3.birthyearinfo {
 
 div.birthyearinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.birthyearinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.birthyearbutton {
@@ -76,30 +69,27 @@ div.birthyearbutton {
 
 button.birthyearbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   padding-top: 10px;
   text-align: center;
 }
 
 div.backbutton {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
 }
 
 button.backbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }

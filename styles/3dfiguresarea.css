@@ -1,8 +1,7 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #064663;
-  background-color: #4bdcc5;
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
 }
 
 h1.title {
@@ -17,40 +16,35 @@ h3.cuboidinfo {
 
 div.cuboidinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.lengthinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.breadthinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.heightinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.cuboidunitinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.cuboidbutton {
@@ -60,18 +54,16 @@ div.cuboidbutton {
 
 button.cuboidbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv1 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.cubeinfo {
@@ -81,24 +73,21 @@ h3.cubeinfo {
 
 div.cubeinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.edgeinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.cubeunitinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.cubebutton {
@@ -108,18 +97,16 @@ div.cubebutton {
 
 button.cubebutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv2 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 h3.cylinderinfo {
@@ -129,32 +116,28 @@ h3.cylinderinfo {
 
 div.cylinderinput {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.radiusinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.cyheightinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 input.cylinderunitinput {
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 250px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.cylinderbutton {
@@ -164,30 +147,27 @@ div.cylinderbutton {
 
 button.cylinderbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div.resultdiv3 {
   text-align: center;
   padding-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 div.backbutton {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
 }
 
 button.backbutton {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 50px;
+  border-radius: 10px;
 }

@@ -1,8 +1,7 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #064663;
-  background-color: #4bdcc5;
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
 }
 
 h1.title {
@@ -16,7 +15,7 @@ h2.info {
 }
 
 div.buttons-1 {
-  padding-top: 100px;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -34,12 +33,12 @@ button {
   height: 75px;
   width: 300px;
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-size: large;
+  border-radius: 10px;
 }
 
 div.devinfo {
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
 }
