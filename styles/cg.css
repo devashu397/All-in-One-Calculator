@@ -1,0 +1,151 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3.sectionpointinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.sectionpointinput {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord1input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord1input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord2input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord2input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.m1input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.m2input {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.sectionpointbutton {
+  padding-top: 10px;
+  text-align: center;
+}
+
+button.sectionpointbutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+div.resultdiv1 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+h3.midpointinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.midpointinput {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord1input2 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord2input2 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord1input2 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord2input2 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.midpointbutton {
+  padding-top: 10px;
+  text-align: center;
+}
+
+button.midpointbutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+div.resultdiv2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.backbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.backbutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}

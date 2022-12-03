@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordinate Geometry</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/cg.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="../js/cg.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Coordinate Geometry</h1>
+    <h3 class="sectionpointinfo">Section Point</h3>
+    <div class="sectionpointinput">
+      <input
+        id="xcord1input"
+        class="xcord1input"
+        placeholder="Enter x1"
+        type="number"
+      />
+      <input
+        id="ycord1input"
+        class="ycord1input"
+        placeholder="Enter y1"
+        type="number"
+      />
+      <input
+        id="xcord2input"
+        class="xcord2input"
+        placeholder="Enter x2"
+        type="number"
+      />
+      <input
+        id="ycord2input"
+        class="ycord2input"
+        placeholder="Enter y2"
+        type="number"
+      />
+      <input
+        id="m1input"
+        class="m1input"
+        placeholder="Enter ratio1/m1"
+        type="number"
+      />
+      <input
+        id="m2input"
+        class="m2input"
+        placeholder="Enter ratio2/m2"
+        type="number"
+      />
+    </div>
+    <div class="resultdiv1">
+      <h1 class="resultdiv1" id="resultdiv1"></h1>
+    </div>
+    <div class="sectionpointbutton">
+      <button class="sectionpointbutton" onclick="sectionPoint()">
+        Calculate
+      </button>
+    </div>
+    <h3 class="midpointinfo">Mid Point</h3>
+    <div class="midpointinput">
+      <input
+        id="xcord1input2"
+        class="xcord1input2"
+        placeholder="Enter x1"
+        type="number"
+      />
+      <input
+        id="xcord2input2"
+        class="xcord2input2"
+        placeholder="Enter x2"
+        type="number"
+      />
+      <input
+        id="ycord1input2"
+        class="ycord1input2"
+        placeholder="Enter y1"
+        type="number"
+      />
+
+      <input
+        id="ycord2input2"
+        class="ycord2input2"
+        placeholder="Enter y2"
+        type="number"
+      />
+    </div>
+    <div class="resultdiv2">
+      <h1 class="resultdiv2" id="resultdiv2"></h1>
+    </div>
+    <div class="midpointbutton">
+      <button class="midpointbutton" onclick="midPoint()">Calculate</button>
+    </div>
+    <div class="backbutton">
+      <a href="../index.html"
+        ><button class="backbutton">Back to Home Page</button></a
+      >
+    </div>
+  </body>
+</html>
