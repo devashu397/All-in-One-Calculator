@@ -137,6 +137,63 @@ div.resultdiv2 {
   font-family: "Fredoka", sans-serif;
 }
 
+h3.distanceinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.distanceinput {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord1input3 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.xcord2input3 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord1input3 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.ycord2input3 {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.distancebutton {
+  padding-top: 10px;
+  text-align: center;
+}
+
+button.distancebutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+div.resultdiv3 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
 div.backbutton {
   padding-top: 25px;
   text-align: center;

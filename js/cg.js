@@ -29,3 +29,17 @@ function midPoint() {
 
   resultdiv.innerHTML = `X = ${x.toLocaleString()}<br>Y = ${y.toLocaleString()}`;
 }
+
+function distance() {
+  const xcord1 = document.getElementById("xcord1input3").value;
+  const xcord2 = document.getElementById("xcord2input3").value;
+  const ycord1 = document.getElementById("ycord1input3").value;
+  const ycord2 = document.getElementById("ycord2input3").value;
+  const resultdiv = document.getElementById("resultdiv3");
+
+  let xstep = xcord2 - xcord1;
+  let ystep = ycord2 - ycord1;
+  let distance = Math.sqrt(xstep * xstep + ystep * ystep);
+
+  resultdiv.innerHTML = `Distance = ${distance.toLocaleString()} units`;
+}
