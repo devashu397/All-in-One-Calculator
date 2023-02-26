@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: dodgerblue;
+}
+
+h1.title {
+  text-align: center;
+  padding-top: 25px;
+}
+
+h3.info {
+  text-align: center;
+  padding-top: 10px;
+}
+
+div.buttons-div {
+  text-align: center;
+  padding-top: 10px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+}
+
+button:hover {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 205px;
+  height: 45px;
+  margin: 10px;
+}
+
+div.info-div {
+  text-align: center;
+  padding-top: 10px;
+}

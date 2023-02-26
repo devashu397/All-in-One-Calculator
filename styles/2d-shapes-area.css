@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: dodgerblue;
+}
+
+h1.title {
+  text-align: center;
+  padding-top: 25px;
+}
+
+h3.shape-info {
+  text-align: center;
+  padding-top: 10px;
+}
+
+div.calc-div {
+  text-align: center;
+  padding-top: 10px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 175px;
+  height: 25px;
+  margin: 5px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 175px;
+  height: 25px;
+}
+
+button:hover {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 180px;
+  height: 30px;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
+}
+
+div.back-div {
+  text-align: center;
+  padding-top: 10px;
+}

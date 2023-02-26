@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Shapes Area Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/2d-shapes-area.css" />
+    <link rel="icon" href="../assets/logo.png" />
+    <script type="text/javascript" src="../js/2d-shapes-area.js"></script>
+  </head>
+  <body>
+    <h1 class="title">2D Shapes Area Calculator</h1>
+    <h3 class="shape-info">Rectangle Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the length" id="rectlength" />
+      <br />
+      <input type="number" placeholder="Enter the breadth" id="rectbreadth" />
+      <br />
+      <label>Select Unit</label>
+      <select id="rectunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="rectanswer"></h3>
+      <button type="submit" onclick="rectangleArea()">Submit</button>
+    </div>
+    <h3 class="shape-info">Square Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the side" id="sqside" />
+      <br />
+      <label>Select Unit</label>
+      <select id="squnit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="sqanswer"></h3>
+      <button type="submit" onclick="squareArea()">Submit</button>
+    </div>
+    <h3 class="shape-info">Triangle Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the base" id="tribase" />
+      <br />
+      <input type="number" placeholder="Enter the height" id="triheight" />
+      <br />
+      <label>Select Unit</label>
+      <select id="triunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="trianswer"></h3>
+      <button type="submit" onclick="triangleArea()">Submit</button>
+    </div>
+    <h3 class="shape-info">Circle Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the radius" id="circleradius" />
+      <br />
+      <label>Select Unit</label>
+      <select id="circleunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="circleanswer"></h3>
+      <button type="submit" onclick="circleArea()">Submit</button>
+    </div>
+    <h3 class="shape-info">Parallelogram Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the base" id="parabase" />
+      <br />
+      <input type="number" placeholder="Enter the height" id="paraheight" />
+      <br />
+      <label>Select Unit</label>
+      <select id="paraunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="paraanswer"></h3>
+      <button type="submit" onclick="parallelogramArea()">Submit</button>
+    </div>
+    <h3 class="shape-info">Rhombus Area</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the diagonal 1" id="rhomd1" />
+      <br />
+      <input type="number" placeholder="Enter the diagonal 2" id="rhomd2" />
+      <br />
+      <label>Select Unit</label>
+      <select id="rhomunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="rhomanswer"></h3>
+      <button type="submit" onclick="rhombusArea()">Submit</button>
+    </div>
+    <div class="back-div">
+      <a href="../index.html"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+</html>

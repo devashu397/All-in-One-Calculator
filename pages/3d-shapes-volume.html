@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Shapes Volume Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/3d-shapes-volume.css" />
+    <link rel="icon" href="../assets/logo.png" />
+    <script type="text/javascript" src="../js/3d-shapes-volume.js"></script>
+  </head>
+  <body>
+    <h1 class="title">3D Shapes Volume Calculator</h1>
+    <h3 class="shape-info">Cuboid Volume</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the length" id="cuboidlength" />
+      <br />
+      <input type="number" placeholder="Enter the breadth" id="cuboidbreadth" />
+      <br />
+      <input type="number" placeholder="Enter the height" id="cuboidheight" />
+      <br />
+      <label>Select Unit</label>
+      <select id="cuboidunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="cuboidanswer"></h3>
+      <button type="submit" onclick="cuboidVolume()">Submit</button>
+    </div>
+    <h3 class="shape-info">Cube Volume</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the edge" id="cubeedge" />
+      <br />
+      <label>Select Unit</label>
+      <select id="cubeunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="cubeanswer"></h3>
+      <button type="submit" onclick="cubeVolume()">Submit</button>
+    </div>
+    <h3 class="shape-info">Cylinder Volume</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the radius" id="cyradius" />
+      <br />
+      <input type="number" placeholder="Enter the height" id="cyheight" />
+      <br />
+      <label>Select Unit</label>
+      <select id="cyunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="cyanswer"></h3>
+      <button type="submit" onclick="cylinderVolume()">Submit</button>
+    </div>
+    <h3 class="shape-info">Cone Volume</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the radius" id="coneradius" />
+      <br />
+      <input type="number" placeholder="Enter the height" id="coneheight" />
+      <br />
+      <label>Select Unit</label>
+      <select id="coneunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="coneanswer"></h3>
+      <button type="submit" onclick="coneVolume()">Submit</button>
+    </div>
+    <h3 class="shape-info">Sphere Volume</h3>
+    <div class="calc-div">
+      <input type="number" placeholder="Enter the radius" id="spradius" />
+      <br />
+      <label>Select Unit</label>
+      <select id="spunit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+      <h3 class="answer" id="spanswer"></h3>
+      <button type="submit" onclick="sphereVolume()">Submit</button>
+    </div>
+    <div class="back-div">
+      <a href="../index.html"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+</html>
