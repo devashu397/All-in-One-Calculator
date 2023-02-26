@@ -52,7 +52,7 @@ function coneVolume() {
   if (!radius || !height) {
     output.innerHTML = "Please enter the above details";
   } else {
-    let volume = (22 / 7) * radius * radius * (h / 3);
+    let volume = (22 / 7) * radius * radius * (height / 3);
 
     output.innerHTML = `Volume = ${volume.toLocaleString()} ${unit}³`;
   }
